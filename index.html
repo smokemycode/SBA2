@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Design & Co.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="site-header">
+        <div id="logo-container">
+            <img src="images/Logo.png" alt="Accessible Design & Co." class="logo">
+        </div>
+
+        <nav id="main-nav" role="navigation">
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero-section" aria-labelledby="hero-section">
+            <div class="hero-content">
+                <h1>Attention Grabbing Heading</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, officiis temporibus, aliquam mollitia perspiciatis voluptate aut excepturi illo doloremque id aperiam. Deserunt obcaecati distinctio a eaque, aliquid dolorem reiciendis mollitia?</p>
+                <button class="cta">CALL TO ACTION 🎉</button>
+            </div>
+        </section>
+
+        <section class="aboutus-section" aria-labelledby="aboutus-section">
+            <article class="aboutus-content">
+                <h2 class="aboutus-title">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident ad amet ipsum animi. Amet ratione architecto explicabo deserunt fugiat maxime, voluptate soluta at error quam, nisi perferendis magni eius odio?</p>
+            </article>
+        </section>
+
+        <section class="services-section" aria-labelledby="services-section">
+            <h2 class="services-title">Services</h2>
+            <div class="services-grid">
+                <article class="service-card">
+                    <img src="https://placehold.co/600x400/1a3a5c/ffffff?text=Accessibility+Audit" alt="" aria-hidden="true" class="service-icon">
+                    <h3>Accessibility Audits</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, nobis nam doloribus itaque et accusantium fuga modi asperiores cumque culpa necessitatibus obcaecati nisi dolores cum aperiam eligendi facere minus? Deleniti?</p>
+                </article>
+
+                <article class="service-card">
+                    <img src="https://placehold.co/600x400/28754e/ffffff?text=Responsive+Web+Design" alt="" aria-hidden="true" class="service-icon">
+                    <h3>Responsive Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur distinctio omnis asperiores maxime, earum dolorum nobis. Animi eum ab nobis quos temporibus asperiores non eligendi, aliquam eveniet, illo, debitis quis.</p>
+                </article>
+
+                <article class="service-card">
+                    <img src="https://placehold.co/600x400/8b3a3a/ffffff?text=Accessible+Code+Workshop" alt="" aria-hidden="true" class="service-icon">
+                    <h3>Hands-on Coding Workshop</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, vel. Architecto accusantium ad enim rem voluptates earum a ipsa, dolorem ullam. Natus obcaecati blanditiis atque corporis eligendi quaerat commodi odio!</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-form-section">
+            <form>
+                <h3 class="contact-form-heading">Reach <span>Out</span></h3>
+                    <div class="contact-form-intro">Curious about something? Complete these fields and get in touch.</div>
+                    <label for="full-name">Full Name</label>
+                    <input id="full-name" class="contact-input" type="text" placeholder="Jamie Newman" />
+                    <label for="email">Email</label>
+                    <input id="email" class="contact-input" type="text" placeholder="Email" />
+                    <label for="message">Your Message</label>
+                    <textarea id="message" class="contact-textarea" rows="4" cols="50" placeholder="Lorem Ipsum"></textarea>
+                    <button class="contact-submit-button" id="submitButton" type="button" onclick="sendMessage()" aria-controls="submitMessage">Send message 🎉</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Accessible Design Co. All rights reserved.</p>
+        <p>Contact: <a href="mailto:contact@accessibledesign.co">contact@accessibledesign.co</a></p>
+        <ul class="social-links" aria-label="Social media links">
+            <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+    </footer>
+</body>
+</html>
