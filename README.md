@@ -33,11 +33,10 @@ This repository contains my submission for the Accessible Web Design Skill-Based
 * Required fields are visually marked with asterisks and include aria-required="true" for assistive technology.
 
 ### Keyboard Navigation & Visual Design
-* Custom focus indicators: Styled :focus-visible with outline: 3px solid #005a9c to ensure interactive elements (links, buttons, inputs) are clearly visible when navigating via keyboard.
 * Color contrast: All text, buttons, and background combinations have been checked against WCAG 2.1 AA standards using contrast checking tools to ensure readability.
 
 ### Decorative Elements
-* Service icons are purely decorative and include aria-hidden="true" and alt="" to prevent screen readers from announcing them unnecessarily.
+* Service icons are purely decorative and include  alt="" to prevent screen readers from announcing them unnecessarily.
 
 ## 🛠️ Technologies Used
 * HTML — Semantic markup and accessibility
@@ -53,3 +52,11 @@ This repository contains my submission for the Accessible Web Design Skill-Based
 ☑ Keyboard focus management
 ☑ Sufficient color contrast ratios
 ☑ Decorative vs. meaningful image handling
+
+## Reflection Questions
+1. What accessibility challenges did you face, and how did you address them?
+   Making sure that the site is functional in both desktop and mobile was kind of tricky for me but I was able to get it right by playing around with the settings.
+2. How did you ensure that your design was responsive and accessible to all users?
+   By setting a media inquiry as well as making sure that the width's and heights of items were not hard set.
+3. What tools or resources did you find most helpful during this project?
+   I used Google to look up more info on some of the topics we've learned in class, as well as my classmates.
