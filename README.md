@@ -8,7 +8,7 @@ This repository contains my submission for the Accessible Web Design Skill-Based
 
 ### Semantic HTML Structure
 * Used landmark HTML elements (<header>, <nav>, <main>, <section>, <article>, <footer>) instead of generic <div> containers to create meaningful document structure.
-* Implemented a logical heading hierarchy, starting with <h1> in the hero section, <h2> for major sections, and <h3> for individual cards and service items.
+* Implemented a logical heading hierarchy, starting with < h1 > in the hero section, < h2 > for major sections, and < h3 > for individual cards and service items.
 
 ## 🎨 Layout & Responsive Design
 
